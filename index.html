@@ -38,11 +38,11 @@
                 </ul>
             </div>
             <div class="third-nav">
-                <button class="navbar-toggler d-none" type="button" id="menuToggle" data-bs-toggle="offcanvas"
+                <button class="navbar-toggler" type="button" id="menuToggle" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <button class="navbar-toggler" type="button" id="closeToggle" data-bs-toggle="offcanvas"
+                <button class="navbar-toggler d-none" type="button" id="closeToggle" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Close navigation">
                     <i class="fas fa-times close-icon"></i>
                 </button>
@@ -72,7 +72,6 @@
             </div>
         </div>
     </nav>
-
     <!-- Hero-section -->
     <div class="hero-section">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -312,17 +311,17 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script>
-        $(document).ready(function () {
-            $('#menuToggle').click(function () {
-                $(this).addClass('d-none');
-                $('#closeToggle').removeClass('d-none');
-            });
-
-            $('#closeBtn').click(function () {
-                $('#menuToggle').removeClass('d-none');
-                $('#closeToggle').addClass('d-none');
-            });
+         $(document).ready(function() {
+        $('#menuToggle').click(function() {
+            $(this).addClass('d-none');
+            $('#closeToggle').removeClass('d-none');
         });
+
+        $('#closeBtn').click(function() {
+            $('#menuToggle').removeClass('d-none');
+            $('#closeToggle').addClass('d-none');
+        });
+    });
 
     </script>
 </body>
