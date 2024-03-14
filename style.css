@@ -91,7 +91,6 @@ body {
     background: #0F0F1D;
     min-height: auto;
 }
-
 @media(max-width:768px) {
     .hero-second-img {
         display: none;
