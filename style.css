@@ -414,7 +414,7 @@ body {
     }
 
     .fifth-card {
-        min-height: 100vh !important;
+        min-height: 50vh !important;
         background-size: 196% 100% !important;
         background-position: 45% 166% !important;
         background-repeat: no-repeat !important;
@@ -446,9 +446,9 @@ body {
 
 /*  */
 .fifth-card {
-    min-height: 160vh;
-    background-size: cover;
-    background-position: center;
+    min-height: 134vh;
+    background-size: 100% 99%;
+    background-position: 100% 100%;
     background-repeat: no-repeat;
     background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
 }
