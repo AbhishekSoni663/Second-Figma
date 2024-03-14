@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .close-icon {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="./style.css">
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid flex-nowrap">
+            <div class="container d-flex align-items-center justify-content-between ">
+                <a class="navbar-brand w-25" href="#">
+                    <img src="./img/Group 5671.png" alt="" class="src" width="80px" height="70px">
+                </a>
+                <ul class="second-nav d-flex justify-content-around ms-auto ">
+                    <li class="nav-item sec-li-a">
+                        <a class="nav-link active fw-500" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item sec-li-a1">
+                        <a class="nav-link active" href="#">For Business</a>
+                    </li>
+                    <li class="nav-item sec-li-a2">
+                        <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item sec-li-a3">
+                        <a class="nav-link active" href="#">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="third-nav">
+                <button class="navbar-toggler d-none" type="button" id="menuToggle" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <button class="navbar-toggler" type="button" id="closeToggle" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Close navigation">
+                    <i class="fas fa-times close-icon"></i>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" id="closeBtn" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item sec-li-a1">
+                                <a class="nav-link active" href="#">For Business</a>
+                            </li>
+                            <li class="nav-item sec-li-a2">
+                                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item sec-li-a3">
+                                <a class="nav-link active" href="#">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero-section -->
+    <div class="hero-section">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-fluid pt-5">
+                        <div class="row row  align-items-center">
+                            <div class="col-xl-3 col-lg-6">
+                                <div class="hero-detail d-flex flex-column align-items-xl-center">
+                                    <div class="hero-img">
+                                        <img src="./img/Group 5676.png" alt="">
+                                    </div>
+                                    <div class="hero-p">
+                                        <p class="text-light">Discover the best salons and parlour in your area. Explore
+                                            a world of beauty
+                                            and
+                                            choose from a variety of services that suit your style.</p>
+                                    </div>
+                                    <div class="hero-btn d-flex gap-2">
+                                        <a class="btn">
+                                            <img src="./img/Group.png" alt="">
+                                        </a>
+                                        <a class="btn">
+                                            <img src="./img/Google Play.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 mt-2 p-0">
+                                <div class="hero-second-img mt-5">
+                                    <img src="./img/ray1.png" alt="" class="object-fit-cover mt-5">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid pt-5 p-3">
+                        <div class="row row  align-items-center">
+                            <div class="col-xl-3">
+                                <div class="hero-detail d-flex flex-column align-items-xl-center">
+                                    <div class="hero-img">
+                                        <img src="./img/Group 5676.png" alt="">
+                                    </div>
+                                    <div class="hero-p">
+                                        <p class="text-light">Discover the best salons and parlour in your area. Explore
+                                            a world of beauty
+                                            and
+                                            choose from a variety of services that suit your style.</p>
+                                    </div>
+                                    <div class="hero-btn d-flex gap-2">
+                                        <a class="btn">
+                                            <img src="./img/Group.png" alt="">
+                                        </a>
+                                        <a class="btn">
+                                            <img src="./img/Google Play.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 mt-2 p-0">
+                                <div class="hero-second-img mt-5">
+                                    <img src="./img/ray1.png" alt="" class="object-fit-cover mt-5">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid pt-5 p-3">
+                        <div class="row row  align-items-center">
+                            <div class="col-xl-3">
+                                <div class="hero-detail d-flex flex-column align-items-xl-center">
+                                    <div class="hero-img">
+                                        <img src="./img/Group 5676.png" alt="">
+                                    </div>
+                                    <div class="hero-p">
+                                        <p class="text-light">Discover the best salons and parlour in your area. Explore
+                                            a world of beauty
+                                            and
+                                            choose from a variety of services that suit your style.</p>
+                                    </div>
+                                    <div class="hero-btn d-flex gap-2">
+                                        <a class="btn">
+                                            <img src="./img/Group.png" alt="">
+                                        </a>
+                                        <a class="btn">
+                                            <img src="./img/Google Play.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 mt-2 p-0">
+                                <div class="hero-second-img mt-5">
+                                    <img src="./img/ray1.png" alt="" class="object-fit-cover mt-5">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thid-Section -->
+    <div class="third-section container">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                    <div class="card border-0 rounded-0 th-card">
+                        <div class="card-body border-0">
+                            <h5 class="card-title th-h5">Convenience: </h5>
+                            <p class="card-text third-p text-light">Book appointments anytime, anywhere – whether you're
+                                at home, at work, or on the go.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                    <div class="third-box d-flex">
+                        <div class="third-img">
+                            <img src="./img/OnePlus 10T.png" alt="" class="src">
+                        </div>
+                        <div class="third-img">
+                            <img src="./img/OnePlus 10T (1).png" alt="" class="src">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fourth-Section -->
+    <section class="fourth-section">
+        <div class="fourth-box pt-5">
+            <div class="d-flex justify-content-center mt-5 align-items-center">
+                <div class="fourth-box-head d-flex align-items-center justify-content-center">
+                    <h3 class="text-center">Craft your vibe
+                        With Us</h3>
+                </div>
+            </div>
+            <div class="fourth-images d-flex justify-content-between">
+                <img class="f-img" src="./img/Polaroid 600 Format.png" alt="">
+                <img class="f-img1" src="./img/Group 5685.png" alt="">
+            </div>
+            <div class="fourth-img-2 d-flex justify-content-between">
+                <img class="f-img3" src="./img/Group 5683.png" alt="">
+                <img class="f-img4" src="./img/Group 5684.png" alt="">
+                <img class="f-img5" src="./img/Group 5686.png" alt="">
+            </div>
+        </div>
+        <div class="fourth-box-2 ">
+            <div class="fourth-head-img d-flex justify-content-around align-items-center">
+                <div class="f-p-1 bg-light d-flex align-items-center flex-column justify-content-around">
+                    <img src="./img/Polaroid1.jpeg" alt="" height="130px" class="p-1">
+                    <h6>Hair Cut</h6>
+                </div>
+                <h2 class="n-f-h2">Craft your vibe
+                    With Us</h2>
+                <div class="f-p-1 bg-light d-flex align-items-center flex-column justify-content-around">
+                    <img src="./img/threading.png" alt="" height="130px" class="p-1">
+                    <h6>Threading</h6>
+                </div>
+            </div>
+            <div class="fourth-head-img2 d-flex justify-content-around px-0">
+                <div class="f-p-1 bg-light d-flex align-items-center flex-column justify-content-around">
+                    <img src="./img/hair2.png" alt="" width="110px" height="120px" class="p-1">
+                    <h6>Hair Cutting</h6>
+                </div>
+                <div class="f-p-1 bg-light d-flex align-items-center flex-column justify-content-around">
+                    <img src="./img/haircolor.png" alt="" height="130px" class="p-1">
+                    <h6>Hair Colouring</h6>
+                </div>
+                <div class="f-p-1 bg-light d-flex align-items-center flex-column justify-content-around">
+                    <img src="./img/straighetening.png" alt="" height="130px" class="p-1">
+                    <h6>Straightening</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fith Section -->
+    <section class="fifth-bg">
+        <div class="fifth-card d-flex align-items-end justify-content-center pb-5">
+            <div class="fifth-cr card d-flex flex-column align-items-center justify-content-center">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                    <p class="fifth-p d-flex align-items-end text-center text-light">Barbers, tired of chaos? Our app
+                        brings smooth booking. Let's simplify salon
+                        life, one appointment at a time!</p>
+                </div>
+                <button class="fifth-btn text-light">Partner With Us</button>
+            </div>
+        </div>
+    </section>
+    <!-- Sixth Section -->
+    <section class="footer">
+        <div class="container w-100">
+            <div class="row justify-content-between pt-xl-5  py-xl-5 g-1">
+                <div class="col-xl-5">
+                    <img src="./img/Group 5657.png" alt="" class="mt-1">
+                </div>
+                <div class="col-xl-3">
+                    <span class="all-foot-a mt-1">
+                        <a href="" class="nav-link text-light mt-1 pt-1">About Us</a>
+                        <a href="" class="nav-link text-light mt-1 pt-1">Our Story</a>
+                        <a href="" class="nav-link text-light mt-1 pt-1">Benefits</a>
+                        <a href="" class="nav-link text-light mt-1 pt-1">Team</a>
+                        <a href="" class="nav-link text-light mt-1 pt-1">Careers</a>
+                    </span>
+                </div>
+                <div class="col-xl-3">
+                    <span class="mt-4 all-foot-a">
+                        <a href="" class="nav-link text-light mt-1 pt-1">Help</a>
+                        <a href="" class="nav-link text-light mt-1 pt-1">FAQs</a>
+                        <a href="" class="nav-link text-light mt-1 pt-1">Contact Us</a>
+                    </span>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center  py-xl-5 g-2">
+                <div class="col-xl-4">
+                    <div class="foot-box d-flex justify-content-between">
+                        <a href="" class="nav-link text-light">Terms & Conditions</a>
+                        <a href="" class="nav-link text-light">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="foot-icon d-flex justify-content-between">
+                        <i class="fa-brands fa-facebook-f text-light text-20"></i>
+                        <i class="fa-brands fa-x-twitter text-light text-20"></i>
+                        <i class="fa-brands fa-instagram text-light text-20"></i>
+                        <i class="fa-brands fa-linkedin text-light text-20"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/fd34e350c0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#menuToggle').click(function () {
+                $(this).addClass('d-none');
+                $('#closeToggle').removeClass('d-none');
+            });
+
+            $('#closeBtn').click(function () {
+                $('#menuToggle').removeClass('d-none');
+                $('#closeToggle').addClass('d-none');
+            });
+        });
+
+    </script>
+</body>
+
+</html>

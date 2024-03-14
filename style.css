@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: #0F0F1D;
+}
+
+.navbar {
+    background: #FBB034;
+    height: 115px;
+    position: static;
+}
+
+.second-nav {
+    width: 696px !important;
+    height: 21px;
+}
+
+.second-nav li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    list-style-type: none;
+}
+
+.sec-li-a {
+    width: 107px;
+    line-height: 38.4px;
+    height: 38px;
+}
+
+.sec-li-a1 {
+    width: 176px;
+    height: 38px;
+    line-height: 38.4px;
+}
+
+.sec-li-a2 {
+    width: 168px;
+    height: 38px;
+    line-height: 38.4px;
+}
+
+.sec-li-a3 {
+    width: 209px;
+    height: 38px;
+    line-height: 38.4px;
+}
+
+@media(max-width:995px) {
+    .second-nav {
+        display: none !important;
+    }
+
+    .third-nav {
+        display: block !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+    }
+
+    .offcanvas {
+        background: #FBB034 !important;
+        width: 70% !important;
+    }
+}
+
+.hero-detail {
+    width: 460px !important;
+    max-height: 340px;
+}
+
+.hero-second-img {
+    width: 100%;
+}
+
+.hero-second-img img {
+    width: 100%;
+
+}
+
+.hero-p {
+    margin-left: 20px;
+    width: 406px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-section {
+    background: #0F0F1D;
+    min-height: 100vh;
+}
+
+@media(max-width:768px) {
+    .hero-second-img {
+        display: none;
+    }
+
+    .hero-btn {
+        width: 300px !important;
+        height: 92px !important;
+        margin-left: 40px;
+        position: relative !important;
+        top: -17px !important;
+        left: -40px;
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+    }
+
+    .hero-btn a img {
+        width: 120px;
+        height: 40px !important;
+    }
+
+    .hero-btn a {
+        height: 40px !important;
+    }
+
+    .hero-detail {
+        width: 460px !important;
+        max-height: 395px;
+        padding-top: 88px;
+    }
+
+    .carousel-item {
+        background-size: 100% 100%;
+        background-position: 100%;
+        background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8435749299719888) 0%, rgba(1, 9, 10, 0.8183648459383753) 99%), url(./img/ray1.png)
+    }
+
+    .hero-p {
+        font-size: 16px;
+        max-width: 250px;
+        margin: 0px;
+    }
+
+    .hero-btn {
+        display: block;
+        position: relative;
+        top: 0px;
+    }
+
+    .hero-img img {
+        width: 180px;
+    }
+
+    .third-box {
+        width: 100% !important;
+    }
+
+    .third-img {
+        width: 100% !important;
+    }
+
+    .third-img img {
+        width: 222px !important;
+    }
+
+    .third-p {
+        font-size: 18px !important;
+        font-family: "Poppins", sans-serif;
+        width: 100% !important;
+    }
+    .th-h5{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:470px) {
+    .third-box {
+        width: 100% !important;
+    }
+
+    .third-img {
+        width: 100% !important;
+    }
+
+    .third-img img {
+        width: 142px !important;
+    }
+}
+
+.hero-btn {
+    width: 466px;
+    height: 90px;
+    margin-left: 40px;
+    position: relative;
+    top: 120px;
+}
+
+.hero-btn a {
+    width: 217px;
+    height: 70px;
+}
+
+.third-nav {
+    display: none;
+}
+
+/*  */
+.third-box {
+    max-width: 700px;
+    min-height: auto;
+}
+
+.third-section {
+    background-color: #0F0F1D;
+    width: 100%;
+}
+
+.third-img {
+    width: 363px;
+    height: 100%;
+}
+
+.third-img img {
+    width: 100%;
+}
+
+.th-h5 {
+    color: #FBB034 !important;
+    font-size: 35px;
+}
+
+.third-p {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    width: 400px;
+}
+
+.th-card {
+    background: none;
+    border: none !important;
+}
+
+/*  */
+.fourth-section {
+    background: #DFC9F2;
+}
+
+.fourth-box-head {
+    width: 373px;
+    height: 148px;
+}
+
+.fourth-box {
+    margin-bottom: -130px;
+}
+
+.fourth-box-head h3 {
+    font-size: 56px;
+}
+
+.fourth-images {
+    position: relative;
+    z-index: 1;
+    width: 85%;
+    left: 109px;
+    top: -196px;
+}
+
+.f-img {
+    width: 224.89px;
+    height: 274.55px;
+}
+
+.f-img1 {
+    width: 278.37px;
+    height: 273.75px;
+}
+
+.f-img2 {
+    width: 331.41px;
+    height: 296.8px;
+}
+
+.f-img3 {
+    width: 331.41px;
+    height: 296.8px;
+}
+
+.f-img4 {
+    width: 292.55px;
+    height: 326.42px;
+}
+
+.f-img5 {
+    width: 294.61px;
+    height: 327.01px;
+}
+
+.fourth-img-2 {
+    position: relative;
+    z-index: 1;
+    top: -197px;
+    width: 100%;
+}
+
+@media(max-width:975px) {
+    .fourth-img-2 {
+        position: relative;
+        z-index: 1;
+        top: -197px;
+        width: 100%;
+    }
+
+    .fourth-box-head h3 {
+        font-size: 36px;
+    }
+
+    .fourth-images {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        left: -1px;
+        top: -196px;
+    }
+
+    .f-img {
+        width: 191.89px;
+        height: 193.55px;
+    }
+
+    .f-img1 {
+        width: 189.37px;
+        height: 195.75px;
+    }
+
+    .f-img5 {
+        width: 218.61px;
+        height: 197.01px;
+    }
+
+    .f-img4 {
+        width: 200.61px;
+        height: 197.01px;
+    }
+
+    .f-img3 {
+        width: 191.55px;
+        height: 195.42px;
+    }
+}
+
+@media(max-width:768px) {
+    .fourth-images {
+        display: none !important;
+    }
+.footer a{
+    font-size: 13px !important;
+    margin: 10px 0;
+    width: 150px;
+}
+.all-foot-a{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.foot-icon{
+    width:220px !important;
+}
+    .fourth-img-2 {
+        display: none !important;
+    }
+
+    .n-f-h2 {
+        text-align: center;
+    }
+
+    .fourth-box {
+        display: none !important;
+    }
+
+    .fourth-box-2 {
+        display: block !important;
+    }
+
+    .fifth-btn {
+        background: #171716;
+        width: 207px !important;
+        height: 56.33px !important;
+        padding: 24px, 52px, 24px, 52px;
+        border-radius: 12px;
+    }
+
+    .fifth-btn {
+        background: #171716;
+        width: 467px;
+        font-size: 17px !important;
+        font-weight: 500;
+        font-family: "Poppins", sans-serif;
+        height: 96.33px;
+        line-height: 44.42px;
+        padding: 24px, 52px, 24px, 52px;
+        border-radius: 12px;
+    }
+
+    .fifth-p {
+        width: 95%;
+        font-weight: 500 !important;
+        height: 278.51px;
+        font-size: 19px !important;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .fifth-card {
+        min-height: 100vh !important;
+        background-size: 196% 100% !important;
+        background-position: 45% 166% !important;
+        background-repeat: no-repeat !important;
+        background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+    }
+
+    .fourth-head-img2 {
+        margin-top: 10px;
+    }
+}
+
+.f-p-1 {
+    background-color: white;
+    max-width: 130px;
+    min-height: 180px;
+}
+
+.fourth-box-2 {
+    display: none;
+}
+
+.n-f-h2 {
+    font-size: 14px;
+}
+
+.f-p-1 h6 {
+    font-size: 14px;
+}
+
+/*  */
+.fifth-card {
+    min-height: 160vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+}
+
+.fifth-cr {
+    background: none !important;
+    border: none !important;
+}
+
+.fifth-btn {
+    background: #171716;
+    width: 300px;
+    border: none !important;
+    box-shadow: 3px 0px 8px 4px #FBB034 !important;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    height: 62.33px;
+    line-height: 44.42px;
+    padding: 24px, 52px, 24px, 52px;
+    border-radius: 12px;
+}
+
+.fifth-p {
+    width: 80%;
+    font-weight: 600;
+    height: 278.51px;
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+}
+
+.foot-icon i {
+    font-size: 18px !important;
+}
+.footer a{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
