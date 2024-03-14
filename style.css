@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
     margin: 0;
@@ -24,7 +25,7 @@ body {
 
 .second-nav li {
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-size: 21px;
     list-style-type: none;
 }
@@ -58,6 +59,10 @@ body {
         display: none !important;
     }
 
+    .hero-second-img {
+        display: none;
+    }
+
     .third-nav {
         display: block !important;
         display: flex;
@@ -66,9 +71,20 @@ body {
         margin-left: auto !important;
     }
 
+    .carousel-item {
+        background-size: 101% 101%;
+        background-repeat: no-repeat;
+        background-position: 62% 28%;
+        background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8435749299719888) 0%, rgba(1, 9, 10, 0.8183648459383753) 99%), url(./img/ray1.png);
+    }
+
+    .hero-img img {
+        width: 180px;
+    }
+
     .offcanvas {
         background: #FBB034 !important;
-        width: 70% !important;
+        width: 100% !important;
     }
 }
 
@@ -106,13 +122,12 @@ body {
     .hero-btn {
         width: 300px !important;
         height: 92px !important;
-        margin-left: 40px;
+        margin-left: 27px !important;
         position: relative !important;
         top: -17px !important;
         left: -40px;
         display: flex;
         align-items: center;
-
         justify-content: center;
     }
 
@@ -128,14 +143,10 @@ body {
     .hero-detail {
         width: 460px !important;
         max-height: 395px;
-        padding-top: 88px;
+        padding-top: 25px;
     }
 
-    .carousel-item {
-        background-size: 100% 100%;
-        background-position: 100%;
-        background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8435749299719888) 0%, rgba(1, 9, 10, 0.8183648459383753) 99%), url(./img/ray1.png)
-    }
+
 
     .hero-p {
         font-size: 16px;
@@ -149,10 +160,6 @@ body {
         top: 0px;
     }
 
-    .hero-img img {
-        width: 180px;
-    }
-
     .third-box {
         width: 100% !important;
     }
@@ -163,6 +170,7 @@ body {
 
     .third-img img {
         width: 222px !important;
+        height: -webkit-fill-available;
     }
 
     .third-p {
@@ -170,7 +178,8 @@ body {
         font-family: "Poppins", sans-serif;
         width: 100% !important;
     }
-    .th-h5{
+
+    .th-h5 {
         font-size: 20px;
     }
 }
@@ -180,12 +189,22 @@ body {
         width: 100% !important;
     }
 
+    .f-p-1 h6 {
+        font-size: 12px !important;
+        font-family: "Poppins", sans-serif;
+    }
+
     .third-img {
         width: 100% !important;
     }
 
     .third-img img {
         width: 142px !important;
+        height: -webkit-fill-available;
+    }
+
+    .n-f-h2 {
+        font-size: 14px !important;
     }
 }
 
@@ -217,10 +236,7 @@ body {
     width: 100%;
 }
 
-.third-img {
-    width: 363px;
-    height: 100%;
-}
+
 
 .third-img img {
     width: 100%;
@@ -250,104 +266,177 @@ body {
 .fourth-box-head {
     width: 373px;
     height: 148px;
+    margin-top: 50px;
 }
 
 .fourth-box {
-    margin-bottom: -130px;
+    margin-bottom: -44px;
 }
 
 .fourth-box-head h3 {
     font-size: 56px;
+    font-family: "Playfair Display", serif;
 }
 
 .fourth-images {
     position: relative;
     z-index: 1;
-    width: 85%;
-    left: 109px;
-    top: -196px;
+    width: 76%;
+    left: 169px;
+    top: -238px;
 }
-
+@media(max-width:998px){
+    .fourth-images {
+        position: relative;
+        z-index: 1;
+        width: 85%;
+        left: 90px;
+        top: -238px;
+    }
+    .fourth-img-2 {
+        position: relative;
+        z-index: 1;
+        left: 62px;
+        top: -135px;
+        width: 88% !important;
+    }
+}
 .f-img {
     width: 224.89px;
     height: 274.55px;
+    padding: 20px 5px !important;
+    rotate: 16.96deg
+}
+.f-img img {
+    width: 199.94px;
+    height: 200.94px !important;
+    object-fit: cover;
 }
 
 .f-img1 {
-    width: 278.37px;
-    height: 273.75px;
+    width: 261.62px;
+    height: 256.64px;
+    background-color: white;
+    rotate: -3.88deg;
+}
+.f-img1 img {
+    width: 229.79px;
+    height: 183.03px;
+    object-fit: cover;
 }
 
-.f-img2 {
-    width: 331.41px;
-    height: 296.8px;
-}
+
 
 .f-img3 {
-    width: 331.41px;
-    height: 296.8px;
+    width: 274.41px;
+    height: 217.8px;
+    rotate: -19.44deg;
+}
+.f-img3 img{
+    width: 250.68px;
+    height: 151.17px;
+    object-fit: cover;
 }
 
 .f-img4 {
-    width: 292.55px;
-    height: 326.42px;
+    width: 224.55px;
+    height: 274.42px;
+}
+.f-img4 img{
+    width: 199.4px;
+    height: 200.94px !important;
+    object-fit: cover;
 }
 
 .f-img5 {
-    width: 294.61px;
-    height: 327.01px;
+    width: 226.95px;
+    height: 274.55px;
+    rotate: 19.66deg;
+}
+.f-img5 img{
+    width: 199.94px;
+    height: 200.94px;
+	object-fit:cover;
 }
 
 .fourth-img-2 {
     position: relative;
     z-index: 1;
-    top: -197px;
-    width: 100%;
+    left: 62px;
+    top: -135px;
+    width: 90%;
 }
 
 @media(max-width:975px) {
     .fourth-img-2 {
         position: relative;
         z-index: 1;
-        top: -197px;
-        width: 100%;
+        top: -124px;
+        left: 46px;
+        width: 85%;
     }
 
     .fourth-box-head h3 {
-        font-size: 36px;
+        font-size: 22px;
+        font-family: "Playfair Display", serif;
     }
 
     .fourth-images {
         position: relative;
         z-index: 1;
-        width: 100%;
-        left: -1px;
+        width: 80%;
+        left: 99px;
         top: -196px;
     }
 
     .f-img {
-        width: 191.89px;
-        height: 193.55px;
+        width: 162.89px;
+        height: 190.55px;
+    }
+    .f-img img {
+        width: 148.94px;
+        height: 151.94px !important;
+        object-fit: cover;
     }
 
     .f-img1 {
-        width: 189.37px;
-        height: 195.75px;
+        width: 172.37px;
+        height: 171.75px;
+    }
+    .f-img1 img {
+        width: 154.79px;
+        height: 133.03px;
+        object-fit: cover;
     }
 
     .f-img5 {
-        width: 218.61px;
-        height: 197.01px;
+        width: 167.61px;
+        height: 201.01px;
+    }
+    .f-img5 img {
+        width: 152.94px;
+        height: 160.94px;
+        object-fit: cover;
     }
 
     .f-img4 {
-        width: 200.61px;
-        height: 197.01px;
+        width: 172.61px;
+        height: 217.01px;
+    }
+    .f-img4 img {
+        width: 156.4px;
+        height: 163.94px !important;
+        object-fit: cover;
     }
 
     .f-img3 {
-        width: 191.55px;
-        height: 195.42px;
+        width: 182.55px;
+        height: 160.42px;
+    }
+    .f-img3 img{
+        width: 169px;
+        height: 116px;
+        object-fit: cover;
     }
 }
 
@@ -355,20 +444,29 @@ body {
     .fourth-images {
         display: none !important;
     }
-.footer a{
-    font-size: 13px !important;
-    margin: 10px 0;
-    width: 150px;
-}
-.all-foot-a{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-}
-.foot-icon{
-    width:220px !important;
-}
+
+    .nav-logo {
+        width: 80px;
+        height: 75px;
+    }
+
+    .footer a {
+        font-size: 13px !important;
+        margin: 10px 0;
+        width: 150px;
+    }
+
+    .all-foot-a {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .foot-icon {
+        width: 220px !important;
+    }
+
     .fourth-img-2 {
         display: none !important;
     }
@@ -383,6 +481,7 @@ body {
 
     .fourth-box-2 {
         display: block !important;
+        padding: 5px;
     }
 
     .fifth-btn {
@@ -437,7 +536,8 @@ body {
 }
 
 .n-f-h2 {
-    font-size: 14px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
 }
 
 .f-p-1 h6 {
@@ -462,7 +562,7 @@ body {
     background: #171716;
     width: 300px;
     border: none !important;
-    box-shadow: 3px 0px 8px 4px #FBB034 !important;
+    box-shadow: 4px 0px 8px 0px #fbb034b3 !important;
     font-size: 25px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
@@ -483,7 +583,8 @@ body {
 .foot-icon i {
     font-size: 18px !important;
 }
-.footer a{
+
+.footer a {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
 }
