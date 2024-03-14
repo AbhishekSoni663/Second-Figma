@@ -270,7 +270,7 @@ body {
 }
 
 .fourth-box {
-    margin-bottom: -44px;
+    margin-bottom: -72px;
 }
 
 .fourth-box-head h3 {
@@ -385,8 +385,8 @@ body {
         position: relative;
         z-index: 1;
         width: 80%;
-        left: 99px;
-        top: -196px;
+        left: 90px;
+        top: -204px;
     }
 
     .f-img {
